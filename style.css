@@ -1,0 +1,265 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	font-family:'Poppins', sans-serif;  
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+img{
+	max-width: 100%;
+}
+
+header{
+	height:90px;
+
+}
+
+.container{
+	  width:80%;
+      margin:auto;
+      overflow:hidden;  
+}
+
+.logo{
+	width:20%;
+	float:left;
+}
+
+.logo img{
+	margin-top:42px;
+}
+.menu{
+	width:80%;
+	float:left;
+
+}
+.menu nav ul{
+	text-align:right;
+
+}
+.menu nav ul li{
+	list-style: none;
+	display:inline-block;
+}
+.menu nav ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	display:block;
+	color:#000000b8;
+	text-transform: uppercase;
+	margin:34px 0px 30px 30px;
+	font-weight:500;
+	transition:.8s;
+	background-color: transparent;
+	padding: 8px 20px;
+    border-radius: 20px;
+
+}
+
+.menu nav ul li a:hover{
+	 background-color: #000;
+	 color:#fff;
+	 padding: 8px 20px;
+	 border-radius: 20px;
+
+}
+
+.banner img{
+	width:100%;
+	height:750px;
+	object-fit: cover;
+}
+
+.contain{
+	width:65%;
+	margin:auto; 
+	overflow: hidden;
+}
+
+.photo h2{
+	font-size: 18px;
+	color:#00000078;
+	text-transform: uppercase;
+	margin:100px 0 15px;
+	font-weight: 500;
+
+}
+
+.photo h1{
+	font-size:35px;
+	color:#000000a1;
+	margin-bottom:27px;
+	font-family: 'Roboto Slab', serif;
+	font-weight:600;
+	
+}
+
+.photo p{
+	font-size:16px;
+	color:#000000bf;
+	line-height: 25px;
+	font-family: 'Roboto Slab', serif;
+	
+}
+
+.photo h3{
+	font-size:16px;
+	color:#00000070;
+	text-transform: uppercase;
+	margin:40px 0 15px;
+	font-weight:400;
+}
+
+.box{
+	width:47%;
+    height:520px;
+	float:left;
+	margin:100px 0 130px;
+
+}
+
+.img{
+	width:100%;
+	height:350px; 
+	box-sizing: border-box;
+
+}
+
+.img img{
+	 width:100%;
+	 height:100%;
+	 object-fit: cover;
+}
+
+.life h2{
+	font-size: 17px;
+	color:#00000078;
+	text-transform: uppercase;
+	margin:50px 0 20px;
+	font-weight: 500;
+
+}
+
+.life h1{
+	font-size:30px;
+	color:#000000a1;
+	margin-bottom:27px;
+	font-family: 'Roboto Slab', serif;
+	font-weight:600;
+	
+}
+
+.life p{
+	width:98%;
+	font-size:16px;
+	color:#000000bf;
+	line-height: 25px;
+	font-weight:500;
+	font-family: 'Roboto Slab', serif;
+	
+}
+
+.news{
+	margin:50px 0;
+	background-color:#dcdde1;
+	height:350px; 
+}
+
+.news h1{
+	font-size:35px;
+	color:#000000a1;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight:600;
+	margin-top:90px;
+}
+
+.news input{
+	width:40%;
+    margin:auto;
+	border:0px solid transparent;
+	background-color: transparent;
+	font-size:20px;
+    margin:70px 380px;
+    border-bottom:2px solid #aaa;
+	
+}
+
+.button a{
+	   width:10%;
+	   margin:20px auto 80px;
+       text-decoration: none;
+       display: block;
+       text-transform: capitalize;
+       font-size: 18px;
+       border:2px solid #aaa;
+       color:#1e0e0eb8;
+       text-align: center;
+       padding: 12px 2px;
+       font-weight:500;
+       transition:.8s;
+       
+}
+
+.button a:hover{
+	   border:2px solid #aaa;
+	   background-color: #000;
+	   color:#fff;
+}
+
+.footer	{
+	   height:120px;
+	   background-color:#dcdde1; 
+}
+.footer-left{
+	   width:50%;
+	   float:left;
+}
+
+.footer-left h2{
+	   font-size:18px;
+	   color:#00000078;
+	   margin:55px 0px;
+}
+
+.footer-right{
+       width:50%;
+       float:right;
+}
+
+
+.footer-right ul{
+	text-align:right;
+
+}
+.footer-right ul li{
+	list-style: none;
+	display:inline-block;
+}
+.footer-right ul li a{
+	   text-decoration: none;
+	   font-size:20px;
+	   margin:55px 8px;
+	   display: block;
+       color:#00000078;
+       transition:.5s;
+}
+
+.footer-right ul li a:hover{
+	 color:#000;
+	
+	
+}
+
+/*.footer-left h2 a{
+	text-decoration: none;
+	  color:#000000b3;
+	  font-size: 19px;
+}*/
+
